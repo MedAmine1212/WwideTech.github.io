@@ -1,0 +1,288 @@
+.copy
+  {   text-align:center ;
+	   color:white;
+	   font-size:20px}
+.c1
+  { font-size:100%;
+    font-family:arial;
+    color:mediumslateblue;
+    font-weight: bolder;}
+
+.c2
+  { list-style-type:upper-roman;
+    color:red;
+    font-weight:bold;}
+
+.c3
+  {  color:deeppink;
+    font-style:italic;
+    font-family:console}
+
+.c10{color:white;font-size:20;font-weight:bold;}
+.c11{width:40%;text-align:center;}
+.c12 {color:Blue;font-size:16px;}
+.c12:hover {color:Green;text-decoration:underline;font-weight:bold;font-size:17px;}
+input[type=Email],input[type=password]{
+    width: 90%;
+    padding: 8px 15px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+box-sizing: border-box;}
+input[type=submit]{
+    width: 100%;
+    background-color:dimgrey	;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]{
+    width: 10%;
+    background-color:dimgrey;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: Green;
+}
+input[type=button]:hover {
+    background-color: #ff3333;
+}
+.op{
+	background-color:white;
+	opacity: 0.65;
+		border-radius: 5px;
+		padding: 50px;
+		margin: 5%;
+		font-weight: bold;
+		}
+.T  {color:red ;
+      font-weight:bold;
+      font-family:arial;
+      font-style:italic;
+      font: bolder 62px Sans-Serif;
+      text-shadow: 1px 1px white, 
+                2px 2px white, 
+                6px 6px black;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;}
+
+/*list down*/
+	.a2 {
+    display: list-item;
+    color: lightsteelblue;
+	font-size:18px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+	opacity:0.7;
+}
+
+.a2:hover {
+	display:flex;
+    background-color:lightgrey;
+	opacity:1;	
+	color:Black;
+}
+	.u2 {
+	text-align:center;
+	padding-right:150%;
+	opacity: 0.9;
+	height:46px;
+	width:;
+    list-style-type: none;
+    padding:0;
+    overflow: hidden;
+    background-color: black;
+	border-radius: 15px;
+}	
+.b1{
+	opacity:0.9;
+	text-align:center;
+	background-color:black;
+	padding: 0x;
+	height:48px;
+	width:1000px;
+	border-radius: 15px;
+		}
+/*end list down*/
+   
+ /*list top*/
+
+
+ .u1 {
+
+	margin-top: -0.6%;
+	margin-left:-2.1%;
+ 	width:100%;
+	opacity: 0.9;
+	float:left;
+	height:60px;
+    list-style-type: none;
+    padding:0.4;
+    overflow: hidden;
+    background-color: black;
+}
+	
+.i1 {
+font-weight:bold;
+font-size:20px;
+    float: left;
+}
+.i2 {
+	font-weight:bold;
+	color:black;
+	font-size:20px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.a1 {
+    display: list-item;
+    color: lightsteelblue;
+	font-size:18px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+	opacity:0.9;
+}
+
+.a1:hover {
+	display:flex;
+    background-color:steelblue;
+	opacity:1;	
+	font-size:20px;
+	color:white;
+	font-family:Arial;
+}
+/*end list top*/
+
+   .o1 {  list-style-type:disc;
+      font-weight:bold;
+      color:#599999;
+      font-size: 20px}
+
+.pre1 { font-size: 20px;
+        font-family: arial;
+        color:black;}
+
+body {  color:black;}
+
+.h3 { color:red;  
+      font-weight:bold; }
+
+
+
+html { 
+        background: url(bg1.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+a
+  {text-decoration: none;
+    }
+
+  .r
+    {text-align:top-right;
+	color:#599999;
+      }
+
+h1
+  { text-align:center;
+    color:grey;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: oblique}
+
+dt
+    {color:violet;
+      font-weight:bolder;
+      font-size:large;
+      font-family: arial;
+
+    }
+
+
+.TOP1 {
+  position: relative;
+  top:-14px;
+width: 50%;
+left:-103px;
+}
+
+.TOP2 {
+  position: absolute;
+  
+  top:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.TOP1:hover .TOP2 {
+  opacity: 1;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+	height:20px;
+    background-color: limegreen	;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 30%;
+    left: 220%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: sticky;
+    right: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: limegreen transparent transparent transparent;
+}
+
+/* Show the tooltip text when the mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+
+}
