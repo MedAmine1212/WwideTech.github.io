@@ -1,6 +1,6 @@
 .sm1{color:white;font-size:20px;}
-.sm{width:50px;height:26px;}
-.sm:hover{width:60px;height:36px;opacity:0.8}
+.sm{width:50px;height:26px;opacity:0.8;border-radius:5px;}
+.sm:hover{width:60px;height:36px;opacity:1;}
 .copy
   {   text-align:center ;
 	   color:white;
